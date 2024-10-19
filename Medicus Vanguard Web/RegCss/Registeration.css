@@ -1,0 +1,113 @@
+body {
+  font-family: roboto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+}
+.left-section {
+  display: flex;
+    align-items: center;
+  }
+  .logo-img {
+    height: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  .right-section {
+    display: flex;
+    position: absolute;
+    right: 0;
+  }
+  .hamburgermenu-button {
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    border-style: solid;
+   border-color: white;
+    cursor: pointer;
+    transition: border-color 1s;
+  }
+  .hamburgermenu-button:hover{
+    border-color: rgb(173, 216, 230);
+  }
+  .hamburgermenu-img {
+    height: 100%;
+    width: 100%;
+  }
+  .Buttons-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+  }
+  .Main-image {
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    width: 100%;
+    opacity: 0.7;
+  }
+.Donot-div {
+  position: absolute;
+  color: rgb(2, 65, 81);
+font-weight: 551;
+font-size: 200%;
+margin-top: 5%;
+word-spacing: 2px;
+}
+.Impbutton-div {
+  position: absolute;
+  top: 55%;
+  left: 4%;
+  height: 60px;
+}
+.Imp-button {
+  background-color: rgb(2, 65, 81);
+  color: rgba(255, 255, 255, 0.836);
+ height: 100%;
+  width: 200px;
+  padding-top: 1%;
+  border: none;
+  border-radius: 75px;
+  word-spacing: 1px;
+  cursor: pointer;
+}
+.Frebutton-div {
+  position: absolute;
+  top: 55%;
+  left: 51%;
+  margin-left: 10px;
+  height: 60px;
+}
+.Fre-button {
+  background-color: rgb(2, 65, 81);
+  color: rgba(255, 255, 255, 0.836);
+ height: 100%;
+  width: 200px;
+  padding-top: 1%;
+  border: none;
+  border-radius: 75px;
+  word-spacing: 1px;
+  cursor: pointer;
+  transition: opacity 0.25s , background-color 0.1s , color 0.1s;
+}
+.Imp-button:hover , .Fre-button:hover {
+  opacity: 0.95;
+}
+
+.Imp-button:active , .Fre-button:active {
+  background-color: rgba(255, 255, 255, 0.836);
+  color: rgb(2, 65, 81);
+}
